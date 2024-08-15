@@ -1,0 +1,9 @@
+[package]
+name = "ftp-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-util = "0.7"
+futures = "0.3"
